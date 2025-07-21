@@ -6,6 +6,7 @@ if [ $# -lt 2 ]; then
   echo "Usage: $0 <filesdir> <searchstr>"
   exit 1
 fi
+#arguments
 
 filesdir="$1"
 searchstr="$2"

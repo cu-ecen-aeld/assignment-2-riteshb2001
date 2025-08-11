@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if the number of arguments is less than 2
+# Check if the number of arguments is less than 2 /
 if [ $# -lt 2 ]; then
   echo "Error: Missing arguments."
   echo "Usage: $0 <filesdir> <searchstr>"

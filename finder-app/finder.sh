@@ -11,7 +11,7 @@ fi
 filesdir="$1"
 searchstr="$2"
 
-# Check if filesdir is a directory
+# Check if files dir is a directory
 if [ ! -d "$filesdir" ]; then
   echo "Error: '$filesdir' is not a directory."
   exit 1
